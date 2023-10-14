@@ -2,6 +2,7 @@
 input starting from 0 to any range that you specify and
 display a range of numbers with a difference of two"""
 
-number = int(input("Enter number:"))
-for i in range(0, number+1, 2):
+start = int(input("Enter Starting Number:"))
+end = int(input("Enter Ending Number:"))
+for i in range(start, end+1, 2):
     print(i, end=" ")
