@@ -2,7 +2,6 @@ import os
 import shutil
 
 def organize_files(source_dir):
-    # Your extension mapping here
     extensions = {
         '.jpeg': 'Images', '.jpg': 'Images', '.png': 'Images', '.gif': 'Images', '.bmp': 'Images',
         '.avi': 'Videos', '.flv': 'Videos', '.wmv': 'Videos', '.mov': 'Videos', '.mp4': 'Videos',
@@ -11,7 +10,7 @@ def organize_files(source_dir):
         '.mp3': 'Music', '.wav': 'Music', '.flac': 'Music', '.m4a': 'Music'
     }
 
-    # Path to the directory containing the files
+    # Folder path that contains files to be organized
     source_directory_path = os.path.join(source_dir, 'files')
 
     # Directory to store organized files
